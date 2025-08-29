@@ -1,0 +1,85 @@
+/* ----------- ELEMENT SELECTOR ----------- */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* HEX color */
+  color: rgb(52, 58, 64); /* RGB color */
+  margin: 20px;
+}
+
+h1 {
+  color: rgba(8, 127, 91, 0.9); /* RGBA color */
+  text-align: center;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.highlight {
+  background-color: hsl(200, 70%, 80%); /* HSL color */
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+#mission {
+  font-weight: bold;
+  color: #087f5b;
+}
+
+
+a[target="_blank"] {
+  color: orange;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+
+p::first-letter {
+  font-size: 24px;
+  font-weight: bold;
+  color: #087f5b;
+}
+
+
+ul.movies {
+  list-style-type: square;
+  margin-top: 20px;
+}
+
+ul.movies li {
+  padding: 5px;
+}
+
+ul.movies li.favorite {
+  color: white;
+  background-color: #087f5b;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+
+ol.cities {
+  margin-top: 20px;
+}
+
+ol.cities li {
+  padding: 5px;
+  font-style: italic;
+  border-bottom: 1px dashed gray;
+}
+
+
+ol.cities li:nth-child(odd) {
+  background-color: hsl(150, 50%, 90%);
+}
+
+ol.cities li:nth-child(even) {
+  background-color: hsl(50, 80%, 90%);
+}
